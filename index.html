@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Marco-bolo CSV models</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "modelling-classes";
+        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="index.html" class="icon icon-home"> Marco-bolo CSV models
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">modelling-classes</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#classes">Classes</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#slots">Slots</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#enumerations">Enumerations</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#types">Types</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#subsets">Subsets</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Boolean.html">Type: Boolean</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Curie.html">Type: Curie</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="DataDownload.html">Class: DataDownload</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Dataset.html">Class: Dataset</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="DatasetComment.html">Class: DatasetComment</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Date.html">Type: Date</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="DateOrDatetime.html">Type: DateOrDatetime</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Datetime.html">Type: Datetime</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Decimal.html">Type: Decimal</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Double.html">Type: Double</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Float.html">Type: Float</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Integer.html">Type: Integer</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Jsonpath.html">Type: Jsonpath</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Jsonpointer.html">Type: Jsonpointer</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="License.html">Class: License</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="MboCsvEntity.html">Class: MboCsvEntity</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Ncname.html">Type: Ncname</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Nodeidentifier.html">Type: Nodeidentifier</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Objectidentifier.html">Type: Objectidentifier</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="PersonOrOrganization.html">Class: PersonOrOrganization</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="PropertyValue.html">Class: PropertyValue</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Sparqlpath.html">Type: Sparqlpath</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="String.html">Type: String</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Time.html">Type: Time</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Uri.html">Type: Uri</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Uriorcurie.html">Type: Uriorcurie</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="VariableMeasured.html">Class: VariableMeasured</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="authorId.html">Slot: authorId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="basedOn.html">Slot: basedOn</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="commentText.html">Slot: commentText</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="contactId.html">Slot: contactId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="contentSize.html">Slot: contentSize</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="contentUrl.html">Slot: contentUrl</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="creativeWorkStatus.html">Slot: creativeWorkStatus</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="creatorId.html">Slot: creatorId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="datasetId.html">Slot: datasetId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="dateCreated.html">Slot: dateCreated</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="dateModified.html">Slot: dateModified</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="datePublished.html">Slot: datePublished</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="description.html">Slot: description</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="distribution.html">Slot: distribution</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="encodingFormat.html">Slot: encodingFormat</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="inProgressDataDate.html">Slot: inProgressDataDate</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="licenseId.html">Slot: licenseId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="maxValue.html">Slot: maxValue</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="mboPermanentIdentifier.html">Slot: mboPermanentIdentifier</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="measurementMethod.html">Slot: measurementMethod</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="measurementTechnique.html">Slot: measurementTechnique</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="metadataPublisherId.html">Slot: metadataPublisherId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="minValue.html">Slot: minValue</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="modelling-classes.html">modelling-classes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="notAccessibleReason.html">Slot: notAccessibleReason</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="ownerId.html">Slot: ownerId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="personOrOrganizationId.html">Slot: personOrOrganizationId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="producerId.html">Slot: producerId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="propertyId.html">Slot: propertyId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="publisherId.html">Slot: publisherId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="sha256.html">Slot: sha256</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="title.html">Slot: title</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="unitCode.html">Slot: unitCode</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="unitText.html">Slot: unitText</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="url.html">Slot: url</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="variableMeasured.html">Slot: variableMeasured</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="version.html">Slot: version</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Marco-bolo CSV models</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html" class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">modelling-classes</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="modelling-classes">modelling-classes</h1>
+<p>URI: https://w3id.org/marco-bolo/modelling-classes</p>
+<p>Name: modelling-classes</p>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="DataDownload.html">DataDownload</a></td>
+<td>A distribution of a Dataset, e.g. a CSV version of the dataset, or a PDF containing the dataset.</td>
+</tr>
+<tr>
+<td><a href="Dataset.html">Dataset</a></td>
+<td>A dataset either produced as part of MBO or used in the process of producing an MBO dataset.</td>
+</tr>
+<tr>
+<td><a href="DatasetComment.html">DatasetComment</a></td>
+<td>A comment on a Dataset</td>
+</tr>
+<tr>
+<td><a href="License.html">License</a></td>
+<td>A person or organization recognised by the MBO project</td>
+</tr>
+<tr>
+<td><a href="PersonOrOrganization.html">PersonOrOrganization</a></td>
+<td>A person or organization recognised by the MBO project</td>
+</tr>
+<tr>
+<td><a href="PropertyValue.html">PropertyValue</a></td>
+<td>A property value.</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="VariableMeasured.html">VariableMeasured</a></td>
+<td>A variable that you measured, along with relevant methodology.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Slot</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="personOrOrganizationId.html">personOrOrganizationId</a></td>
+<td>The URI PID of the person or organization</td>
+</tr>
+<tr>
+<td><a href="mboPermanentIdentifier.html">mboPermanentIdentifier</a></td>
+<td>MBO Permanent Identifier</td>
+</tr>
+<tr>
+<td><a href="title.html">title</a></td>
+<td>A name/title</td>
+</tr>
+<tr>
+<td><a href="description.html">description</a></td>
+<td>A description for this entity</td>
+</tr>
+<tr>
+<td><a href="url.html">url</a></td>
+<td>The URL of the entity you are describing</td>
+</tr>
+<tr>
+<td><a href="licenseId.html">licenseId</a></td>
+<td>The MBO PID of the license which covers the entity you are describing</td>
+</tr>
+<tr>
+<td><a href="authorId.html">authorId</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="creatorId.html">creatorId</a></td>
+<td>The Permanent Identifier of an person or organization who created the entity</td>
+</tr>
+<tr>
+<td><a href="ownerId.html">ownerId</a></td>
+<td>The Permanent Identifier of an person or organization who owns the entity</td>
+</tr>
+<tr>
+<td><a href="contactId.html">contactId</a></td>
+<td>The Permanent Identifier of an person to contact about this dataset</td>
+</tr>
+<tr>
+<td><a href="publisherId.html">publisherId</a></td>
+<td>The Permanent Identifier of an person or organization who created the entity</td>
+</tr>
+<tr>
+<td><a href="producerId.html">producerId</a></td>
+<td>The Permanent Identifier of an person or organization who created the entity</td>
+</tr>
+<tr>
+<td><a href="metadataPublisherId.html">metadataPublisherId</a></td>
+<td>The Ocean Expert identifier of the person who wrote this metadata record</td>
+</tr>
+<tr>
+<td><a href="propertyId.html">propertyId</a></td>
+<td>The permanent identifer of this property</td>
+</tr>
+<tr>
+<td><a href="measurementMethod.html">measurementMethod</a></td>
+<td>How the property was measured</td>
+</tr>
+<tr>
+<td><a href="measurementTechnique.html">measurementTechnique</a></td>
+<td>TODO</td>
+</tr>
+<tr>
+<td><a href="minValue.html">minValue</a></td>
+<td>TODO</td>
+</tr>
+<tr>
+<td><a href="maxValue.html">maxValue</a></td>
+<td>TODO</td>
+</tr>
+<tr>
+<td><a href="unitCode.html">unitCode</a></td>
+<td>TODO</td>
+</tr>
+<tr>
+<td><a href="unitText.html">unitText</a></td>
+<td>TODO</td>
+</tr>
+<tr>
+<td><a href="notAccessibleReason.html">notAccessibleReason</a></td>
+<td>Why the dataset isn't available</td>
+</tr>
+<tr>
+<td><a href="inProgressDataDate.html">inProgressDataDate</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="variableMeasured.html">variableMeasured</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="basedOn.html">basedOn</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="distribution.html">distribution</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="datasetId.html">datasetId</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="contentUrl.html">contentUrl</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="version.html">version</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="contentSize.html">contentSize</a></td>
+<td>The size of the content in MB or KB</td>
+</tr>
+<tr>
+<td><a href="encodingFormat.html">encodingFormat</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="sha256.html">sha256</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="creativeWorkStatus.html">creativeWorkStatus</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="dateCreated.html">dateCreated</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="dateModified.html">dateModified</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="datePublished.html">datePublished</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="commentText.html">commentText</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="enumerations">Enumerations</h2>
+<table>
+<thead>
+<tr>
+<th>Enumeration</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="types">Types</h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="String.html">String</a></td>
+<td>A character string</td>
+</tr>
+<tr>
+<td><a href="Integer.html">Integer</a></td>
+<td>An integer</td>
+</tr>
+<tr>
+<td><a href="Boolean.html">Boolean</a></td>
+<td>A binary (true or false) value</td>
+</tr>
+<tr>
+<td><a href="Float.html">Float</a></td>
+<td>A real number that conforms to the xsd:float specification</td>
+</tr>
+<tr>
+<td><a href="Double.html">Double</a></td>
+<td>A real number that conforms to the xsd:double specification</td>
+</tr>
+<tr>
+<td><a href="Decimal.html">Decimal</a></td>
+<td>A real number with arbitrary precision that conforms to the xsd:decimal speci...</td>
+</tr>
+<tr>
+<td><a href="Time.html">Time</a></td>
+<td>A time object represents a (local) time of day, independent of any particular...</td>
+</tr>
+<tr>
+<td><a href="Date.html">Date</a></td>
+<td>a date (year, month and day) in an idealized calendar</td>
+</tr>
+<tr>
+<td><a href="Datetime.html">Datetime</a></td>
+<td>The combination of a date and time</td>
+</tr>
+<tr>
+<td><a href="DateOrDatetime.html">DateOrDatetime</a></td>
+<td>Either a date or a datetime</td>
+</tr>
+<tr>
+<td><a href="Uriorcurie.html">Uriorcurie</a></td>
+<td>a URI or a CURIE</td>
+</tr>
+<tr>
+<td><a href="Curie.html">Curie</a></td>
+<td>a compact URI</td>
+</tr>
+<tr>
+<td><a href="Uri.html">Uri</a></td>
+<td>a complete URI</td>
+</tr>
+<tr>
+<td><a href="Ncname.html">Ncname</a></td>
+<td>Prefix part of CURIE</td>
+</tr>
+<tr>
+<td><a href="Objectidentifier.html">Objectidentifier</a></td>
+<td>A URI or CURIE that represents an object in the model</td>
+</tr>
+<tr>
+<td><a href="Nodeidentifier.html">Nodeidentifier</a></td>
+<td>A URI, CURIE or BNODE that represents a node in a model</td>
+</tr>
+<tr>
+<td><a href="Jsonpointer.html">Jsonpointer</a></td>
+<td>A string encoding a JSON Pointer</td>
+</tr>
+<tr>
+<td><a href="Jsonpath.html">Jsonpath</a></td>
+<td>A string encoding a JSON Path</td>
+</tr>
+<tr>
+<td><a href="Sparqlpath.html">Sparqlpath</a></td>
+<td>A string encoding a SPARQL Property Path</td>
+</tr>
+</tbody>
+</table>
+<h2 id="subsets">Subsets</h2>
+<table>
+<thead>
+<tr>
+<th>Subset</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="Boolean.html" class="btn btn-neutral float-right" title="Type: Boolean">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+      <span><a href="Boolean.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2025-02-27 14:49:05.441098+00:00
+-->

@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Class: License - Marco-bolo CSV models</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Class: License";
+        var mkdocs_page_input_path = "License.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="index.html" class="icon icon-home"> Marco-bolo CSV models
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="index.html">modelling-classes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Boolean.html">Type: Boolean</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Curie.html">Type: Curie</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="DataDownload.html">Class: DataDownload</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Dataset.html">Class: Dataset</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="DatasetComment.html">Class: DatasetComment</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Date.html">Type: Date</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="DateOrDatetime.html">Type: DateOrDatetime</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Datetime.html">Type: Datetime</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Decimal.html">Type: Decimal</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Double.html">Type: Double</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Float.html">Type: Float</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Integer.html">Type: Integer</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Jsonpath.html">Type: Jsonpath</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Jsonpointer.html">Type: Jsonpointer</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Class: License</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#slots">Slots</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#usages">Usages</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#identifier-and-mapping-information">Identifier and Mapping Information</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#schema-source">Schema Source</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mappings">Mappings</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#linkml-source">LinkML Source</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#direct">Direct</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#induced">Induced</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="MboCsvEntity.html">Class: MboCsvEntity</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Ncname.html">Type: Ncname</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Nodeidentifier.html">Type: Nodeidentifier</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Objectidentifier.html">Type: Objectidentifier</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="PersonOrOrganization.html">Class: PersonOrOrganization</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="PropertyValue.html">Class: PropertyValue</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Sparqlpath.html">Type: Sparqlpath</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="String.html">Type: String</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Time.html">Type: Time</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Uri.html">Type: Uri</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="Uriorcurie.html">Type: Uriorcurie</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="VariableMeasured.html">Class: VariableMeasured</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="authorId.html">Slot: authorId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="basedOn.html">Slot: basedOn</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="commentText.html">Slot: commentText</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="contactId.html">Slot: contactId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="contentSize.html">Slot: contentSize</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="contentUrl.html">Slot: contentUrl</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="creativeWorkStatus.html">Slot: creativeWorkStatus</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="creatorId.html">Slot: creatorId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="datasetId.html">Slot: datasetId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="dateCreated.html">Slot: dateCreated</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="dateModified.html">Slot: dateModified</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="datePublished.html">Slot: datePublished</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="description.html">Slot: description</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="distribution.html">Slot: distribution</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="encodingFormat.html">Slot: encodingFormat</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="inProgressDataDate.html">Slot: inProgressDataDate</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="licenseId.html">Slot: licenseId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="maxValue.html">Slot: maxValue</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="mboPermanentIdentifier.html">Slot: mboPermanentIdentifier</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="measurementMethod.html">Slot: measurementMethod</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="measurementTechnique.html">Slot: measurementTechnique</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="metadataPublisherId.html">Slot: metadataPublisherId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="minValue.html">Slot: minValue</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="modelling-classes.html">modelling-classes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="notAccessibleReason.html">Slot: notAccessibleReason</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="ownerId.html">Slot: ownerId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="personOrOrganizationId.html">Slot: personOrOrganizationId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="producerId.html">Slot: producerId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="propertyId.html">Slot: propertyId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="publisherId.html">Slot: publisherId</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="sha256.html">Slot: sha256</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="title.html">Slot: title</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="unitCode.html">Slot: unitCode</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="unitText.html">Slot: unitText</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="url.html">Slot: url</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="variableMeasured.html">Slot: variableMeasured</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="version.html">Slot: version</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Marco-bolo CSV models</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html" class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Class: License</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="class-license">Class: License</h1>
+<p><em>A person or organization recognised by the MBO project</em></p>
+<p>URI: <a href="https://schema.org/CreativeWork">schema:CreativeWork</a></p>
+<p><img alt="diagram" src="License-1.svg" /></p>
+<!-- no inheritance hierarchy -->
+
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="mboPermanentIdentifier.html">mboPermanentIdentifier</a></td>
+<td>1 <br/> <a href="String.html">String</a></td>
+<td>MBO Permanent Identifier</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="metadataPublisherId.html">metadataPublisherId</a></td>
+<td>1 <br/> <a href="PersonOrOrganization.html">PersonOrOrganization</a></td>
+<td>The Ocean Expert identifier of the person who wrote this metadata record</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="title.html">title</a></td>
+<td>1 <br/> <a href="String.html">String</a></td>
+<td>A name/title</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="url.html">url</a></td>
+<td>* <br/> <a href="Uri.html">Uri</a></td>
+<td>The URL of the entity you are describing</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="description.html">description</a></td>
+<td>0..1 <br/> <a href="String.html">String</a></td>
+<td>A description for this entity</td>
+<td>direct</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Dataset.html">Dataset</a></td>
+<td><a href="licenseId.html">licenseId</a></td>
+<td>range</td>
+<td><a href="License.html">License</a></td>
+</tr>
+<tr>
+<td><a href="DataDownload.html">DataDownload</a></td>
+<td><a href="licenseId.html">licenseId</a></td>
+<td>range</td>
+<td><a href="License.html">License</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/marco-bolo/modelling-classes</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>schema:CreativeWork</td>
+</tr>
+<tr>
+<td>native</td>
+<td>mbo:License</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
+<!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
+
+<h3 id="direct">Direct</h3>
+<details>
+
+<pre><code class="language-yaml">name: License
+description: A person or organization recognised by the MBO project
+from_schema: https://w3id.org/marco-bolo/modelling-classes
+slots:
+- mboPermanentIdentifier
+- metadataPublisherId
+- title
+- url
+- description
+slot_usage:
+  mboPermanentIdentifier:
+    name: mboPermanentIdentifier
+    alias: licenseId
+  url:
+    name: url
+    alias: licenseURL
+class_uri: schema:CreativeWork
+
+</code></pre>
+
+</details>
+
+<h3 id="induced">Induced</h3>
+<details>
+
+<pre><code class="language-yaml">name: License
+description: A person or organization recognised by the MBO project
+from_schema: https://w3id.org/marco-bolo/modelling-classes
+slot_usage:
+  mboPermanentIdentifier:
+    name: mboPermanentIdentifier
+    alias: licenseId
+  url:
+    name: url
+    alias: licenseURL
+attributes:
+  mboPermanentIdentifier:
+    name: mboPermanentIdentifier
+    description: MBO Permanent Identifier
+    from_schema: https://w3id.org/marco-bolo/modelling-classes
+    rank: 1000
+    identifier: true
+    alias: licenseId
+    owner: License
+    domain_of:
+    - Dataset
+    - License
+    - PropertyValue
+    - DataDownload
+    - DatasetComment
+    range: string
+    required: true
+    pattern: ^mbo_\\d{7}$
+  metadataPublisherId:
+    name: metadataPublisherId
+    description: The Ocean Expert identifier of the person who wrote this metadata
+      record.
+    from_schema: https://w3id.org/marco-bolo/modelling-classes
+    rank: 1000
+    slot_uri: schema:sdPublisher
+    alias: metadataPublisherId
+    owner: License
+    domain_of:
+    - Dataset
+    - License
+    - PropertyValue
+    - DataDownload
+    - DatasetComment
+    range: PersonOrOrganization
+    required: true
+  title:
+    name: title
+    description: A name/title
+    from_schema: https://w3id.org/marco-bolo/modelling-classes
+    rank: 1000
+    slot_uri: schema:name
+    alias: title
+    owner: License
+    domain_of:
+    - Dataset
+    - License
+    - PropertyValue
+    - DataDownload
+    range: string
+    required: true
+  url:
+    name: url
+    description: The URL of the entity you are describing.
+    from_schema: https://w3id.org/marco-bolo/modelling-classes
+    rank: 1000
+    slot_uri: schema:url
+    alias: licenseURL
+    owner: License
+    domain_of:
+    - Dataset
+    - License
+    range: uri
+    required: false
+    multivalued: true
+  description:
+    name: description
+    description: A description for this entity.
+    from_schema: https://w3id.org/marco-bolo/modelling-classes
+    rank: 1000
+    slot_uri: schema:description
+    alias: description
+    owner: License
+    domain_of:
+    - Dataset
+    - License
+    - PropertyValue
+    - DataDownload
+    range: string
+    required: false
+class_uri: schema:CreativeWork
+
+</code></pre>
+
+</details>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="Jsonpointer.html" class="btn btn-neutral float-left" title="Type: Jsonpointer"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="MboCsvEntity.html" class="btn btn-neutral float-right" title="Class: MboCsvEntity">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="Jsonpointer.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="MboCsvEntity.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
